@@ -3,22 +3,25 @@ import { ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    title: "NEO BANK",
-    category: "Fintech",
-    image: "https://picsum.photos/seed/banking/1200/800",
-    color: "#00FF87"
+    title: "YARICHO SENIOR HOME CARE",
+    category: "Business Website",
+    image: "/yaricho-senior-home-care.png",
+    url: "https://yaricho-senior-home-care.vercel.app/",
+    description: "Professional senior home care services website with modern design and user-friendly interface."
   },
   {
-    title: "QUANTUM AI",
-    category: "SaaS",
-    image: "https://picsum.photos/seed/quantum/1200/800",
-    color: "#00E0FF"
+    title: "TORRA PARKING",
+    category: "Business Website",
+    image: "/torra-parking.png",
+    url: "https://torra-parking.vercel.app/",
+    description: "Smart parking management solution with seamless booking and real-time availability."
   },
   {
-    title: "META STORE",
+    title: "E-COMMERCE PLATFORM",
     category: "E-Commerce",
-    image: "https://picsum.photos/seed/retail/1200/800",
-    color: "#FF007A"
+    image: "/ecommerce-platform.png",
+    url: "https://ecommerce-web-psi-one.vercel.app/",
+    description: "Full-featured online shopping platform with modern UI and smooth user experience."
   }
 ];
 
@@ -60,12 +63,17 @@ export default function Work() {
                 <span className="text-diamond-green font-bold text-xs uppercase tracking-widest block mb-4">0{index + 1} / {project.category}</span>
                 <h4 className="text-5xl md:text-7xl font-black mb-6 hover:text-diamond-green transition-colors cursor-pointer">{project.title}</h4>
                 <p className="text-[var(--text-muted)] text-lg max-w-md mb-8 italic font-medium">
-                  "Exploring the intersection of high-frequency data and user behavior to create a seamless digital ecosystem."
+                  "{project.description}"
                 </p>
                 <div className="flex items-center gap-6">
-                  <button className="flex items-center gap-2 font-bold text-sm text-[var(--text-main)] hover:text-diamond-green transition-colors uppercase tracking-widest">
-                    VIEW CASE STUDY <ExternalLink className="w-4 h-4" />
-                  </button>
+                  <a 
+                    href={project.url} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 font-bold text-sm text-[var(--text-main)] hover:text-diamond-green transition-colors uppercase tracking-widest"
+                  >
+                    VIEW LIVE SITE <ExternalLink className="w-4 h-4" />
+                  </a>
                   <div className="h-px flex-1 bg-[var(--border-color)] hidden md:block" />
                 </div>
               </div>

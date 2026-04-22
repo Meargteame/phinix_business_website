@@ -16,7 +16,7 @@ export default function Navbar() {
         <div className="w-14 h-14 relative flex items-center justify-center transition-all duration-700 group-hover:scale-110">
           <img 
             src="/logo.webp" 
-            alt="Phinix Logo" 
+            alt="Phoenix Logo" 
             className="w-full h-full object-contain filter drop-shadow-[0_0_15px_rgba(0,255,135,0.6)]"
             onError={(e) => {
               e.currentTarget.style.display = 'none';
@@ -31,7 +31,7 @@ export default function Navbar() {
         </div>
         <div className="flex flex-col -space-y-1">
           <span className="font-display font-black text-2xl tracking-tighter text-[var(--text-main)] uppercase italic leading-none">
-            PHINIX
+            PHOENIX
           </span>
           <span className="font-display font-bold text-sm tracking-[0.3em] text-diamond-green uppercase leading-none opacity-80">
             ENTERPRISE

@@ -61,7 +61,7 @@ export default function App() {
               </h2>
               <div className="flex flex-wrap justify-center gap-12 md:gap-24 mt-20">
                 <div className="text-center">
-                  <p className="text-5xl md:text-7xl font-black text-white mb-2">120+</p>
+                  <p className="text-5xl md:text-7xl font-black text-white mb-2">20+</p>
                   <p className="text-xs font-bold text-diamond-green uppercase tracking-[0.3em]">Projects Delivered</p>
                 </div>
                 <div className="text-center">

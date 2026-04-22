@@ -19,7 +19,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[var(--text-muted)] text-xs font-bold uppercase tracking-widest">Email Us</p>
-                  <p className="text-[var(--text-main)] font-medium">hello@phinix.enterprise</p>
+                  <p className="text-[var(--text-main)] font-medium">hello@phoenix.enterprise</p>
                 </div>
               </div>
               
@@ -29,7 +29,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[var(--text-muted)] text-xs font-bold uppercase tracking-widest">Call Us</p>
-                  <p className="text-[var(--text-main)] font-medium">+1 (555) 012-3456</p>
+                  <p className="text-[var(--text-main)] font-medium">+1 571 277 2616</p>
                 </div>
               </div>
 
@@ -39,7 +39,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-[var(--text-muted)] text-xs font-bold uppercase tracking-widest">Our Studio</p>
-                  <p className="text-[var(--text-main)] font-medium">100 Diamond Street, Austin, TX</p>
+                  <p className="text-[var(--text-main)] font-medium">7945 FM 2757, Forney TX 75126</p>
                 </div>
               </div>
             </div>

@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="w-10 h-10 relative">
               <img 
                 src="/logo.webp" 
-                alt="Phinix Logo" 
+                alt="Phoenix Logo" 
                 className="w-full h-full object-contain"
                 onError={(e) => {
                   e.currentTarget.style.display = 'none';
@@ -24,7 +24,7 @@ export default function Footer() {
             </div>
             <div className="flex flex-col -space-y-1">
               <span className="font-display font-black text-xl tracking-tighter text-[var(--text-main)] uppercase italic leading-none">
-                PHINIX
+                PHOENIX
               </span>
               <span className="font-display font-bold text-[10px] tracking-[0.2em] text-diamond-green uppercase leading-none opacity-80">
                 ENTERPRISE
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         
         <div className="mt-12 pt-8 border-t border-[var(--border-color)] text-center text-[10px] font-bold uppercase tracking-[0.3em]">
-          © 2026 PHINIX ENTERPRISE — ENGINEERED FOR EXCELLENCE
+          © 2026 PHOENIX ENTERPRISE — ENGINEERED FOR EXCELLENCE
         </div>
       </div>
     </footer>
